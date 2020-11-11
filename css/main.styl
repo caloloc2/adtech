@@ -2,34 +2,49 @@
     margin 0
     padding 0
     position: fixed
-    right 0
-    top 150px
+    right 12px
+    bottom 150px
     z-index: 5000
+    text-align: right    
+
+    figure
+        margin 0
+        padding 0
+        width 65px
+        cursor pointer
+        transition all 0.3s linear
+        position absolute
+        right 0
+
+        img 
+            margin 0
+            padding 0
+            width 100%
 
     .iconos
-        margin: 0
-        padding 0.5em 0.7em
+        margin: 0 0 1em 0
+        padding 0
         list-style: none
-        background: white
-        border 1px solid rgba(0,0,0,0.1)
-        border-top-left-radius: 0.4em
-        border-bottom-left-radius: 0.4em
+        display: none
 
         li 
-            margin 0
+            margin 1.25em 0
             padding 0
             
             a 
-
-                figure
-                    margin 0
-                    padding 0
-                    width 100px
-
-                    img  
-                        margin 0
-                        padding 0
-                        width: 100%
+                background green  
+                color white
+                text-decoration: none
+                margin 0
+                padding 0.5em 0.7em
+                font-weight: bold
+                border-radius: 0.4em
+                transition all 0.3s linear              
+            
+            a:hover
+                -webkit-box-shadow: 3px 3px 2px 0px rgba(0,0,0,0.3);
+                -moz-box-shadow: 3px 3px 2px 0px rgba(0,0,0,0.3);
+                box-shadow: 3px 3px 2px 0px rgba(0,0,0,0.3);
 
 .alianza
     margin 0

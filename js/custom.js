@@ -261,7 +261,7 @@
 						youtube: {
 			   
 							index: 'youtube.com',
-							src: 'https://www.youtube.com/embed/ip2cq-VXxjI'
+							src: 'https://www.youtube.com/embed/2hh8A-B2kPE'
 				
 								}
 							}
@@ -281,7 +281,7 @@
 						youtube: {
 			   
 							index: 'youtube.com',
-							src: 'https://www.youtube.com/embed/ip2cq-VXxjI'
+							src: 'https://www.youtube.com/embed/2hh8A-B2kPE'
 				
 								}
 							}
@@ -580,10 +580,10 @@
 
 
 		$.ajaxChimp.translations.cm = {
-			'submit': 'Submitting...',
-			0: 'We have sent you a confirmation email',
-			1: 'Please enter your email address',
-			2: 'An email address must contain a single @',
+			'submit': 'Enviando, favor espere...',
+			0: 'Gracias, se ha inscrito su correo electrónico',
+			1: 'Por favor ingrese su correo electrónico',
+			2: 'Un correo válido debe contener un @',
 			3: 'The domain portion of the email address is invalid (the portion after the @: )',
 			4: 'The username portion of the email address is invalid (the portion before the @: )',
 			5: 'This email address looks fake or invalid. Please enter a real email address'
